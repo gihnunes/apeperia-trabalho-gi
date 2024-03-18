@@ -8,7 +8,7 @@
 
 body{
     padding: 1rem;
-    background-color: #61C0BF;
+    background-color: #020202;
 }
 
 h1{
@@ -41,7 +41,7 @@ button{
     padding: 15px;
     border: none;
     border-radius: 5px;
-    background-color: black;
+    background-color: rgb(110, 7, 179);
     color: #fff;
     font-size: 1.1rem;
     cursor: pointer;
@@ -49,7 +49,7 @@ button{
 }
 
 .fundo{
-    background-color: #61C0BF;
+    background-color: #19191a;
     margin-right: 25%;
     margin-left: 25%;
     padding: 80px;
