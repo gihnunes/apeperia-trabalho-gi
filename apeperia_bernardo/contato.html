@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com validação/Bernardo</title>
+    <link rel="stylesheet" href="style_contato.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="fundo">
+    <h1>Formulário de contato:</h1>
+    
+    <form id="form">
+        <label for="name" class="nome">Nome:</label> <br>
+        <input type="text" id="name" autocomplete="Primeiro Nome" minlength="3" maxlength="50" required> <br>
+
+        <label for="data" class="data">Data de nascimento:</label> <br>
+        <input type="date" id="data" required> <br>
+
+        <label for="email" class="email">E-mail:</label> <br>
+        <input type="email" id="email" autocomplete="email@servidor" required> <br>
+
+        <label for="rg" class="Rg">Rg:</label> <br>
+        <input type="text" id="rg" required> <br>
+
+        <label for="job" class="selecao">Perspectiva profissional:</label> <br>
+        <select name="job" id="job" placeholder="oie">
+            <option value="out">outras áreas</option>
+            <option value="hum">humanas</option>
+            <option value="exa">exatas</option>
+        </select>
+
+    <button type="submit">Enviar</button> <br>
+</div> 
+    
+    
+    
+    </form>
+    
+</body>
+</html>
